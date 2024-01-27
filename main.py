@@ -28,10 +28,12 @@ def main():
             tuple_to_append = character, letter_dictionary[character]
             isalpha_list.append(tuple_to_append)
     
-#this is to sort the new alpha list by the largest number of times the letter was recorded from letter_dictionary
+    #this is to sort the new alpha list by the largest number of times the letter was recorded from letter_dictionary
     isalpha_list.sort(key=lambda tuple: tuple[1], reverse=True)        
     
-    
+    #this is to print each item in the newly sorted isalpha_list
+    for i in isalpha_list:
+        print (f"The '{i[0]}' character was found {i[1]} times")
 
     
 
