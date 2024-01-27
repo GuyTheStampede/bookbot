@@ -35,6 +35,7 @@ def main():
     for i in isalpha_list:
         print (f"The '{i[0]}' character was found {i[1]} times")
 
-    
+    #this is to signify the end of all prints
+    print ("--- End report ---")
 
 main()
